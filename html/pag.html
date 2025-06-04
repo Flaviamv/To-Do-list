@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style2.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>Lista de tarefas</title>
+</head>
+
+<body>
+
+  <h1>Lista de tarefas</h1>
+<input placeholder="Digite aqui..."/>
+<button onclick="addTarefa()">Adicionar</button>
+<ul>
+</ul> 
+
+<div class="filtros" > 
+  <button onclick="filtrar('concluidas')">Concluídas</button>
+  <button onclick="filtrar('pendentes')">Pendentes</button>
+  <button onclick="filtrar('todos')">Todos</button>
+</div>
+
+  <div class="links">
+  <button onclick="voltarInicio()">Voltar ao inicio</button>
+</div>
+</body>
+<script src="../js/script.js"></script>
+</html>
