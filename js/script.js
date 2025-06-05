@@ -27,11 +27,11 @@ function removerTarefa(lixeira) {
 }
 
 function voltarInicio() {
-   window.location.href = 'index.html';
+   window.location.href = '../index.html';
 }
 
 function entreAqui() {
-   window.location.href = 'pag.html';
+   window.location.href = 'html/pag.html';
 }
 
 lista.addEventListener('change', function(event) {
